@@ -561,7 +561,7 @@ def find_frame_combos(move_data, target, tolerance=1):
     move_names = list(move_data.keys())
     results = []
 
-    for r in range(1, 4):
+    for r in range(1, 11):
         for combo in combinations_with_replacement(move_names, r):
             total, detail = compute_combo_total(combo, move_data)
 
@@ -596,8 +596,8 @@ target_frame = st.number_input(f"{selected_char}で消費したいフレーム�
 if st.button("検索"):
     results = find_frame_combos(character_moves[selected_char], target_frame)
     if results:
-        st.success(f"見つかった組み合わせ（上位5件）:")
-        for detail, total in results[:5]:
+        st.success(f"見つかった組み合わせ（上位10件）:")
+        for detail, total in results[:10]:
             st.write(f"{' + '.join(detail)} = {total}F")
     else:
         st.warning("該当する技の組み合わせが見つかりませんでした。")
