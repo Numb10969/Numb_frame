@@ -543,8 +543,10 @@ def compute_combo_total(combo, move_data):
                     frame = move_info["cancel"]
                     label = "C"
                 else:
-                    frame = move_info["cancel"] + move_info["last_additional"]
-                    label = f"C+{move_info['last_additional']}"
+                    delta = move_info["last_additional"]
+                    frame = max(1, move_info["cancel"] + delta)
+                    label = f"C{delta:+d}"
+
         else:
             frame = move_info["normal"]
             label = "N"
@@ -582,7 +584,13 @@ def find_frame_combos(move_data, target, tolerance=1):
 # ==== Streamlit GUI ====
 
 st.title("ストリートファイター6 技フレーム消費検索")
-selected_char = st.selectbox("キャラクターを選択", list(character_moves.keys()))
+selected_char = st.radio(
+    "キャラクターを選択してください",
+    list(character_moves.keys()),
+    index=0,
+    key="char_select",
+)
+
 target_frame = st.number_input(f"{selected_char}で消費したいフレーム数を入力", min_value=1, max_value=300, step=1)
 
 if st.button("検索"):
