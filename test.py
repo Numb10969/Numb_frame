@@ -20,6 +20,8 @@ character_moves = {
         "前強ｐ": {"normal": 37, "cancel": 37, "is_chain": False, "last_additional": 0},
         "引き強ｐ": {"normal": 48, "cancel": 48, "is_chain": False, "last_additional": 0},
         "引き強ｋ": {"normal": 39, "cancel": 39, "is_chain": False, "last_additional": 0},
+        "通常投げ": {"normal": 30, "cancel": 30, "is_chain": False, "last_additional": 0},
+        "前方ステップ": {"normal": 19, "cancel": 19, "is_chain": False, "last_additional": 0},
     },
     "ジェイミー": {
         "立ち弱ｐ(酔いレベル0)": {"normal": 13, "cancel": 13, "is_chain": False, "last_additional": 0},
@@ -39,7 +41,9 @@ character_moves = {
         "引き強ｐ": {"normal": 41, "cancel": 41, "is_chain": False, "last_additional": 0},
         "引き強ｐ(酔いレベル3以上)": {"normal": 42, "cancel": 42, "is_chain": False, "last_additional": 0},
         "前強ｋ": {"normal": 38, "cancel": 38, "is_chain": False, "last_additional": 0},
-        "天晴脚(↓+ K同時押し)": {"normal": 33, "cancel": 33, "is_chain": False, "last_additional": 0},    
+        "天晴脚(↓+ K同時押し)": {"normal": 33, "cancel": 33, "is_chain": False, "last_additional": 0},   
+        "通常投げ": {"normal": 30, "cancel": 30, "is_chain": False, "last_additional": 0},
+        "前方ステップ": {"normal": 19, "cancel": 19, "is_chain": False, "last_additional": 0},
     },
     "マノン": {
         "立ち弱ｐ": {"normal": 16, "cancel": 13, "is_chain": True, "last_additional": 1},
@@ -57,7 +61,7 @@ character_moves = {
         "引き強ｐ": {"normal": 30, "cancel": 30, "is_chain": False, "last_additional": 0},
         "引き中ｋ": {"normal": 32, "cancel": 32, "is_chain": False, "last_additional": 0},
         "前斜め強ｋ": {"normal": 51, "cancel": 51, "is_chain": False, "last_additional": 0},
-        "通常投げ": {"normal": 23, "cancel": 23, "is_chain": False, "last_additional": 0},
+        "通常投げ": {"normal": 30, "cancel": 30, "is_chain": False, "last_additional": 0},
         "前方ステップ": {"normal": 21, "cancel": 21, "is_chain": False, "last_additional": 0},
     },
     "キンバリー": {
@@ -76,7 +80,7 @@ character_moves = {
         "前斜め中ｋ": {"normal": 36, "cancel": 36, "is_chain": False, "last_additional": 0},
         "前強ｋ": {"normal": 50, "cancel": 50, "is_chain": False, "last_additional": 0},
         "引き強ｋ": {"normal": 42, "cancel": 42, "is_chain": False, "last_additional": 0},
-        "通常投げ": {"normal": 23, "cancel": 23, "is_chain": False, "last_additional": 0},
+        "通常投げ": {"normal": 30, "cancel": 30, "is_chain": False, "last_additional": 0},
         "前方ステップ": {"normal": 18, "cancel": 18, "is_chain": False, "last_additional": 0},
     },
     "マリーザ": {
@@ -103,7 +107,7 @@ character_moves = {
         "引き強ｐ(最大溜め)": {"normal": 45, "cancel": 45, "is_chain": False, "last_additional": 0},
         "前強ｋ(溜めなし)": {"normal": 38, "cancel": 38, "is_chain": False, "last_additional": 0},
         "前強ｋ(最大溜め)": {"normal": 49, "cancel": 49, "is_chain": False, "last_additional": 0},
-        "通常投げ": {"normal": 23, "cancel": 23, "is_chain": False, "last_additional": 0},
+        "通常投げ": {"normal": 30, "cancel": 30, "is_chain": False, "last_additional": 0},
         "前方ステップ": {"normal": 22, "cancel": 22, "is_chain": False, "last_additional": 0},
     },
     "リリー": {
@@ -122,7 +126,7 @@ character_moves = {
         "前斜め強ｐ": {"normal": 45, "cancel": 45, "is_chain": False, "last_additional": 0},
         "引き強ｐ": {"normal": 35, "cancel": 35, "is_chain": False, "last_additional": 0},
         "前強ｐ": {"normal": 41, "cancel": 41, "is_chain": False, "last_additional": 0},
-        "通常投げ": {"normal": 23, "cancel": 23, "is_chain": False, "last_additional": 0},
+        "通常投げ": {"normal": 30, "cancel": 30, "is_chain": False, "last_additional": 0},
         "前方ステップ": {"normal": 21, "cancel": 21, "is_chain": False, "last_additional": 0},
     },
     "JP": {
@@ -142,7 +146,7 @@ character_moves = {
         "前斜め強ｐ": {"normal": 49, "cancel": 49, "is_chain": False, "last_additional": 0},
         "前中ｋ": {"normal": 42, "cancel": 42, "is_chain": False, "last_additional": 0},
         "前強ｋ": {"normal": 40, "cancel": 40, "is_chain": False, "last_additional": 0},
-        "通常投げ": {"normal": 23, "cancel": 23, "is_chain": False, "last_additional": 0},
+        "通常投げ": {"normal": 30, "cancel": 30, "is_chain": False, "last_additional": 0},
         "前方ステップ": {"normal": 22, "cancel": 22, "is_chain": False, "last_additional": 0},
     },
     "ジュリ": {
@@ -162,7 +166,7 @@ character_moves = {
         "前強ｐ": {"normal": 45, "cancel": 45, "is_chain": False, "last_additional": 0},
         "前中ｋ": {"normal": 45, "cancel": 45, "is_chain": False, "last_additional": 0},
         "引き強ｋ": {"normal": 40, "cancel": 40, "is_chain": False, "last_additional": 0},
-        "通常投げ": {"normal": 23, "cancel": 23, "is_chain": False, "last_additional": 0},
+        "通常投げ": {"normal": 30, "cancel": 30, "is_chain": False, "last_additional": 0},
         "前方ステップ": {"normal": 22, "cancel": 22, "is_chain": False, "last_additional": 0},
     },
     "ディージェイ": {
@@ -180,7 +184,7 @@ character_moves = {
         "屈強ｋ": {"normal": 38, "cancel": 38, "is_chain": False, "last_additional": 0},
         "前中ｋ": {"normal": 39, "cancel": 39, "is_chain": False, "last_additional": 0},
         "引き強ｋ": {"normal": 32, "cancel": 32, "is_chain": False, "last_additional": 0},
-        "通常投げ": {"normal": 23, "cancel": 23, "is_chain": False, "last_additional": 0},
+        "通常投げ": {"normal": 30, "cancel": 30, "is_chain": False, "last_additional": 0},
         "前方ステップ": {"normal": 19, "cancel": 19, "is_chain": False, "last_additional": 0},
     },
     "キャミィ": {
@@ -199,7 +203,7 @@ character_moves = {
         "引き中ｐ": {"normal": 21, "cancel": 21, "is_chain": False, "last_additional": 0},
         "前強ｋ": {"normal": 45, "cancel": 45, "is_chain": False, "last_additional": 0},
         "引き強ｋ": {"normal": 29, "cancel": 29, "is_chain": False, "last_additional": 0},
-        "通常投げ": {"normal": 23, "cancel": 23, "is_chain": False, "last_additional": 0},
+        "通常投げ": {"normal": 30, "cancel": 30, "is_chain": False, "last_additional": 0},
         "前方ステップ": {"normal": 18, "cancel": 18, "is_chain": False, "last_additional": 0},
     },
     "リュウ": {
@@ -220,6 +224,8 @@ character_moves = {
         "前強ｋ": {"normal": 39, "cancel": 39, "is_chain": False, "last_additional": 0},
         "引き強ｐ": {"normal": 36, "cancel": 36, "is_chain": False, "last_additional": 0},
         "引き強ｋ": {"normal": 44, "cancel": 44, "is_chain": False, "last_additional": 0},
+        "通常投げ": {"normal": 30, "cancel": 30, "is_chain": False, "last_additional": 0},
+        "前方ステップ": {"normal": 19, "cancel": 19, "is_chain": False, "last_additional": 0},
     },
     "エドモンド本田": {
         "立ち弱ｐ": {"normal": 17, "cancel": 17, "is_chain": True, "last_additional": 1},
@@ -236,7 +242,7 @@ character_moves = {
         "屈強ｋ": {"normal": 38, "cancel": 38, "is_chain": False, "last_additional": 0},
         "前強ｋ": {"normal": 37, "cancel": 37, "is_chain": False, "last_additional": 0},
         "前斜め強ｋ": {"normal": 45, "cancel": 45, "is_chain": False, "last_additional": 0},
-        "通常投げ": {"normal": 23, "cancel": 23, "is_chain": False, "last_additional": 0},
+        "通常投げ": {"normal": 30, "cancel": 30, "is_chain": False, "last_additional": 0},
         "前方ステップ": {"normal": 19, "cancel": 19, "is_chain": False, "last_additional": 0},
     },
     "ブランカ": {
@@ -259,7 +265,7 @@ character_moves = {
         "前斜め強ｐ": {"normal": 45, "cancel": 45, "is_chain": False, "last_additional": 0},
         "サプライズフォワード": {"normal": 27, "cancel": 27, "is_chain": False, "last_additional": 0},
         "サプライズバック": {"normal": 32, "cancel": 32, "is_chain": False, "last_additional": 0},
-        "通常投げ": {"normal": 23, "cancel": 23, "is_chain": False, "last_additional": 0},
+        "通常投げ": {"normal": 30, "cancel": 30, "is_chain": False, "last_additional": 0},
         "前方ステップ": {"normal": 19, "cancel": 19, "is_chain": False, "last_additional": 0},
     },
     "ガイル": {
@@ -282,7 +288,7 @@ character_moves = {
         "前または引き中ｋ": {"normal": 34, "cancel": 34, "is_chain": False, "last_additional": 0},
         "前強ｋ": {"normal": 45, "cancel": 45, "is_chain": False, "last_additional": 0},
         "前斜め強ｋ": {"normal": 35, "cancel": 35, "is_chain": False, "last_additional": 0},
-        "通常投げ": {"normal": 23, "cancel": 23, "is_chain": False, "last_additional": 0},
+        "通常投げ": {"normal": 30, "cancel": 30, "is_chain": False, "last_additional": 0},
         "前方ステップ": {"normal": 21, "cancel": 21, "is_chain": False, "last_additional": 0},
     },
     "ケン": {
@@ -299,7 +305,7 @@ character_moves = {
         "屈強ｐ": {"normal": 35, "cancel": 35, "is_chain": False, "last_additional": 0},
         "屈強ｋ": {"normal": 34, "cancel": 34, "is_chain": False, "last_additional": 0},
         "奮迅弱派生(最速入力)": {"normal": 27, "cancel": 27, "is_chain": False, "last_additional": 0},
-        "通常投げ": {"normal": 23, "cancel": 23, "is_chain": False, "last_additional": 0},
+        "通常投げ": {"normal": 30, "cancel": 30, "is_chain": False, "last_additional": 0},
         "前方ステップ": {"normal": 19, "cancel": 19, "is_chain": False, "last_additional": 0},
     },
     "春麗": {
@@ -320,6 +326,8 @@ character_moves = {
         "前強ｋ": {"normal": 40, "cancel": 40, "is_chain": False, "last_additional": 0},
         "前斜め強ｋ": {"normal": 51, "cancel": 51, "is_chain": False, "last_additional": 0},
         "引き強ｐ": {"normal": 27, "cancel": 27, "is_chain": False, "last_additional": 0},
+        "通常投げ": {"normal": 30, "cancel": 30, "is_chain": False, "last_additional": 0},
+        "前方ステップ": {"normal": 19, "cancel": 19, "is_chain": False, "last_additional": 0},
     },
     "ザンギエフ": {
         "立ち弱ｐ": {"normal": 15, "cancel": 9, "is_chain": True, "last_additional": 0},
@@ -343,7 +351,7 @@ character_moves = {
         "ストンピング１段目(↓↓+中ｋ)": {"normal": 28, "cancel": 28, "is_chain": False, "last_additional": 0},
         "ストンピング２段目(↓↓+中ｋ)": {"normal": 30, "cancel": 30, "is_chain": False, "last_additional": 0},
         "ストンピング３段目(↓↓+中ｋ)": {"normal": 36, "cancel": 36, "is_chain": False, "last_additional": 0},
-        "通常投げ": {"normal": 23, "cancel": 23, "is_chain": False, "last_additional": 0},
+        "通常投げ": {"normal": 30, "cancel": 30, "is_chain": False, "last_additional": 0},
         "前方ステップ": {"normal": 22, "cancel": 22, "is_chain": False, "last_additional": 0},
     },
     "ダルシム": {
@@ -367,7 +375,7 @@ character_moves = {
         "後ろ斜め中ｋ": {"normal": 30, "cancel": 30, "is_chain": False, "last_additional": 0},
         "引き強ｋ": {"normal": 39, "cancel": 39, "is_chain": False, "last_additional": 0},
         "後ろ斜め強ｋ": {"normal": 33, "cancel": 33, "is_chain": False, "last_additional": 0},
-        "通常投げ": {"normal": 23, "cancel": 23, "is_chain": False, "last_additional": 0},
+        "通常投げ": {"normal": 30, "cancel": 30, "is_chain": False, "last_additional": 0},
         "前方ステップ": {"normal": 25, "cancel": 25, "is_chain": False, "last_additional": 0},
     },
     "ラシード": {
@@ -387,7 +395,7 @@ character_moves = {
         "前強ｐ": {"normal": 45, "cancel": 45, "is_chain": False, "last_additional": 0},
         "前強ｋ": {"normal": 42, "cancel": 42, "is_chain": False, "last_additional": 0},
         "サイドフリップ１段目": {"normal": 32, "cancel": 32, "is_chain": False, "last_additional": 0},
-        "通常投げ": {"normal": 23, "cancel": 23, "is_chain": False, "last_additional": 0},
+        "通常投げ": {"normal": 30, "cancel": 30, "is_chain": False, "last_additional": 0},
         "前方ステップ": {"normal": 18, "cancel": 18, "is_chain": False, "last_additional": 0},
     },
     "A.K.I": {
@@ -406,7 +414,7 @@ character_moves = {
         "前斜め中ｐ": {"normal": 44, "cancel": 44, "is_chain": False, "last_additional": 0},
         "前強ｐ": {"normal": 39, "cancel": 39, "is_chain": False, "last_additional": 0},
         "前強ｋ": {"normal": 48, "cancel": 48, "is_chain": False, "last_additional": 0},
-        "通常投げ": {"normal": 23, "cancel": 23, "is_chain": False, "last_additional": 0},
+        "通常投げ": {"normal": 30, "cancel": 30, "is_chain": False, "last_additional": 0},
         "前方ステップ": {"normal": 19, "cancel": 19, "is_chain": False, "last_additional": 0},
     },
     "ED": {
@@ -423,7 +431,7 @@ character_moves = {
         "屈強ｐ": {"normal": 37, "cancel": 37, "is_chain": False, "last_additional": 0},
         "屈強ｋ": {"normal": 30, "cancel": 30, "is_chain": False, "last_additional": 0},
         "前強ｐ": {"normal": 40, "cancel": 40, "is_chain": False, "last_additional": 0},
-        "通常投げ": {"normal": 23, "cancel": 23, "is_chain": False, "last_additional": 0},
+        "通常投げ": {"normal": 30, "cancel": 30, "is_chain": False, "last_additional": 0},
         "前方ステップ": {"normal": 19, "cancel": 19, "is_chain": False, "last_additional": 0},
     },
     "豪鬼": {
@@ -443,7 +451,7 @@ character_moves = {
         "前強ｐ": {"normal": 36, "cancel": 36, "is_chain": False, "last_additional": 0},
         "前中ｋ": {"normal": 31, "cancel": 31, "is_chain": False, "last_additional": 0},
         "引き強ｋ": {"normal": 43, "cancel": 43, "is_chain": False, "last_additional": 0},
-        "通常投げ": {"normal": 23, "cancel": 23, "is_chain": False, "last_additional": 0},
+        "通常投げ": {"normal": 30, "cancel": 30, "is_chain": False, "last_additional": 0},
         "前方ステップ": {"normal": 19, "cancel": 19, "is_chain": False, "last_additional": 0},
     },
     "ベガ": {
@@ -462,7 +470,7 @@ character_moves = {
         "前強ｐ": {"normal": 44, "cancel": 44, "is_chain": False, "last_additional": 0},
         "引き強ｋ": {"normal": 30, "cancel": 30, "is_chain": False, "last_additional": 0},
         "前斜め強ｋ": {"normal": 47, "cancel": 47, "is_chain": False, "last_additional": 0},
-        "通常投げ": {"normal": 23, "cancel": 23, "is_chain": False, "last_additional": 0},
+        "通常投げ": {"normal": 30, "cancel": 30, "is_chain": False, "last_additional": 0},
         "前方ステップ": {"normal": 19, "cancel": 19, "is_chain": False, "last_additional": 0},
     },
     "テリー": {
@@ -478,6 +486,8 @@ character_moves = {
         "屈中ｋ": {"normal": 29, "cancel": 29, "is_chain": False, "last_additional": 0},
         "屈強ｐ": {"normal": 35, "cancel": 35, "is_chain": False, "last_additional": 0},
         "前強ｐ": {"normal": 43, "cancel": 43, "is_chain": False, "last_additional": 0},
+        "通常投げ": {"normal": 30, "cancel": 30, "is_chain": False, "last_additional": 0},
+        "前方ステップ": {"normal": 19, "cancel": 19, "is_chain": False, "last_additional": 0},
     },
     "舞": {
         "立ち弱ｐ": {"normal": 13, "cancel": 11, "is_chain": True, "last_additional": 1},
@@ -494,7 +504,7 @@ character_moves = {
         "屈強ｋ": {"normal": 36, "cancel": 36, "is_chain": False, "last_additional": 0},
         "前中ｐ": {"normal": 40, "cancel": 40, "is_chain": False, "last_additional": 0},
         "引き強ｋ": {"normal": 32, "cancel": 32, "is_chain": False, "last_additional": 0},
-        "通常投げ": {"normal": 23, "cancel": 23, "is_chain": False, "last_additional": 0},
+        "通常投げ": {"normal": 30, "cancel": 30, "is_chain": False, "last_additional": 0},
         "前方ステップ": {"normal": 18, "cancel": 18, "is_chain": False, "last_additional": 0},
     },
     "エレナ": {
@@ -514,7 +524,7 @@ character_moves = {
         "前中ｋ": {"normal": 41, "cancel": 41, "is_chain": False, "last_additional": 0},
         "前斜め強ｋ": {"normal": 44, "cancel": 44, "is_chain": False, "last_additional": 0},
         "引き強ｋ": {"normal": 36, "cancel": 36, "is_chain": False, "last_additional": 0},
-        "通常投げ": {"normal": 23, "cancel": 23, "is_chain": False, "last_additional": 0},
+        "通常投げ": {"normal": 30, "cancel": 30, "is_chain": False, "last_additional": 0},
         "前方ステップ": {"normal": 20, "cancel": 20, "is_chain": False, "last_additional": 0},
     }
 }
